@@ -7,14 +7,70 @@
   font-family: 'Mulish', sans-serif;
 }
 
-.green-bg
-{
+
+/* =======================================================
+Background Color
+======================================================= */
+
+.green-bg{    
     width: 100%;
     height: 90vh;
     background-image: linear-gradient(to bottom, #BDE2CF,#fff);
 }
 
+/* =======================================================
+Navbar
+======================================================= */
+
 .navbar
 {
-    background-color: #BDE2CF;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
+.navbar-brand{
+  color: black;
+  font-size: 22px;
+}
+
+.nav-link{
+  color: black;
+  font-size: 16px;
+}
+
+.nav-link:hover{
+  color: indianred;
+}
+
+.login, .register{
+  font-size: 12px;
+  width: 100px;
+  height: 25px;
+  border-radius: 3px;
+  margin-right: 5px;
+  border: black solid 1px;
+}
+
+.login{
+  background-color: rgba(0,0,0,0);
+}
+
+.login:hover{
+  background-color: #083741;
+  color: #fff;
+}
+
+.register{
+  background-color: #083741;
+  color: white;
+}
+
+.register:hover{
+  background-color: indianred;
+}
+
+/* =======================================================
+Navbar END
+======================================================= */
+
