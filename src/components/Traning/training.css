@@ -44,3 +44,9 @@
     color: #1DAEEE;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 763px){
+    .train-title{
+        margin-top:150px;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./intern.css"
+import "./intern.css";
 import engg from '../../images/engg.png';
 import pt from '../../images/part-time.png';
 import ft from '../../images/full-time.png';
@@ -14,23 +14,23 @@ const Internship = () => {
                 <p className="train-para">Apply To Each Opportunities You Recieve</p>
             </div>
 
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="card col-sm-3">
+            <div className="container">
+                <div className="row gy-4">
+                    <div className="card col-sm-3">
                         <img src={engg} alt="engg" />
-                        <p>Programming With Python</p>
+                        <p>Engineering</p>
                     </div>
-                    <div class="card col-sm-3">
+                    <div className="card col-sm-3">
                         <img src={pt} alt="pt" />
-                        <p>Web Development</p>
+                        <p>Part-Time</p>
                     </div>
-                    <div class="card col-sm-3">
+                    <div className="card col-sm-3">
                         <img src={ft} alt="ft" />
-                        <p>Machine Learning</p>
+                        <p>Full-Time</p>
                     </div>
-                    <div class="card col-sm-3">
+                    <div className="card col-sm-3">
                         <img src={wh} alt="wh" />
-                        <p>Data<br /> Mining</p>
+                        <p>Work-At-Home</p>
                     </div>
                 </div>
             </div>

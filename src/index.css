@@ -36,6 +36,12 @@ Navbar
   font-size: 22px;
 }
 
+.nav-img{
+  width: 27px;
+  height: 27px;
+  margin-top: -5px;
+}
+
 .nav-link{
   color: black;
   font-size: 16px;
@@ -108,7 +114,7 @@ landing page content
   top: 73%;
   text-align: center;
   font-size: 4em;
-  font-weight: 500;
+  font-weight: 800;
   bottom: auto;
   text-transform: capitalize;
   color: #215C51;
@@ -200,3 +206,22 @@ Banner Columns Cards
   width: 100%;
   height: auto;
 }
+
+
+@media only screen and (max-width: 763px){
+  .img img{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    -webkit-transform: translate(-1%, 55%);
+    transform: translate(-1%, 55%);
+  }
+
+  .banner-col .row{
+    margin-bottom: 10px;
+  }
+
+}
+/* =======================================================
+Banner Columns Cards
+======================================================= */

@@ -1,0 +1,52 @@
+.train-title{
+    text-align: center;
+    color: #215C51;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.train-para{
+    text-align: center;
+    margin-bottom: 5%;
+    color: #6F968E;
+}
+
+.container{
+    width: 60%;
+}
+
+.card{
+    width: 120px;
+    height: auto;
+    margin: 20px auto; /* Added */
+    float: none;
+    border-radius: 8px;
+    box-shadow: 5px 2px 5px 1px #6F968E;
+}
+  
+.card img{
+    width: 70px;
+    height: auto;
+    margin: 15px 10px 10px 10px;
+}
+
+.card p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.next-page{
+    margin: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+    color: #1DAEEE;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 763px){
+    .train-title{
+        margin-top: -50px;
+    }
+}

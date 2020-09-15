@@ -60,6 +60,7 @@ const Home = () => {
 
         </div>
       </div>
+      <br /><br /><br /><br />
       <Training /><br /><br /><br /><br /><br /><br />
       <Internship />
     </>
