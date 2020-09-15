@@ -94,10 +94,6 @@ Navbar END
 /* =======================================================
 landing page content
 ======================================================= */
-.containers{
-  margin-bottom: 15%;
-}
-
 .landing-img{
   width: 70%;
   height: auto;
@@ -147,6 +143,60 @@ landing page content
 landing page content end
 ======================================================= */
 
-.intern{
-  margin-top: 50%;
+/* =======================================================
+Banner Columns Cards
+======================================================= */
+
+.banner-col{
+  margin-top: 150px;
+}
+
+.banner-col .container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner-col .row{
+  margin-bottom: 90px;
+}
+
+.banner-col h1{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #083741;
+  margin-top: -10px;
+  margin-bottom: 70px;
+}
+
+.banner-col p{
+  text-align: center;
+  font-size: 18px;
+  color: #FF4B4B;
+}
+
+.banner-col .card{
+  width: 500px;
+}
+
+.sm-img img{
+  width: 40px;
+  height: 40px;
+  margin: 50px 0 10px 0;
+}
+
+.sm-img h3{
+  font-weight: 600;
+  color: #083741;
+}
+
+.sm-img p{
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.img img{
+  width: 100%;
+  height: auto;
 }

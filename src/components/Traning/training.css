@@ -20,6 +20,8 @@
     height: auto;
     margin: 20px auto; /* Added */
     float: none;
+    border-radius: 8px;
+    box-shadow: 5px 2px 5px 1px #6F968E;
 }
   
 .card img{
@@ -31,6 +33,7 @@
 .card p{
     text-align: center;
     font-size: 12px;
+    font-weight: 600;
 }
 
 .next-page{
