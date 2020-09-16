@@ -42,12 +42,12 @@ const Navbar = () => {
                                 <NavLink className="nav-link" aria-current="page" to="#">Webinar</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" aria-current="page" to="#">Jobs</NavLink>
+                                <NavLink className="nav-link" aria-current="page" to="/signin">Jobs</NavLink>
                             </li>
                         </ul>
                     </div>
-                    <input className="login" type="button" value="Login" />
-                    <input className="register" type="button" value="Register" />
+                    <NavLink className="login" to="/login">Login</NavLink>
+                    <NavLink className="register" to="#">Register</NavLink>
                 </div>
             </nav>
         </>

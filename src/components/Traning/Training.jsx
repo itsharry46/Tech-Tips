@@ -55,7 +55,7 @@ const Training = () => {
                     </div>
                     <div className="card col-sm-3">
                         <img src={uiux} alt="ui/ux" />
-                        <p>Ui/Ux Designing</p>
+                        <p>UI/UX Designing</p>
                     </div>
                 </div>
             </div>
