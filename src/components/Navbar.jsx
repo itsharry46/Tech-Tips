@@ -46,8 +46,8 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <NavLink className="login" to="/login">Login</NavLink>
-                    <NavLink className="register" to="#">Register</NavLink>
+                    <NavLink className="login" to="Signin">Login</NavLink>
+                    <NavLink className="register" to="Signup">Register</NavLink>
                 </div>
             </nav>
         </>

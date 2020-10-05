@@ -18,6 +18,7 @@ Background Color
     background-image: linear-gradient(to bottom, #BDE2CF,#fff);
 }
 
+
 /* =======================================================
 Navbar
 ======================================================= */
@@ -216,7 +217,7 @@ Banner Columns Cards
 @media only screen and (max-width: 763px){
   .img img{
     position: absolute;
-    width: 50%;
+    width: 45%;
     height: auto;
     -webkit-transform: translate(-1%, 55%);
     transform: translate(-1%, 55%);
